@@ -101,6 +101,10 @@ const renderSongs = array => {
     }).join("");
 
     playlistSongs.innerHTML = songsHTML;
-}
+};
+
+const sortSongs = () => {
+
+};
 
 renderSongs(userData?.songs);
