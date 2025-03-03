@@ -193,6 +193,10 @@ const renderSongs = array => {
     }).join("");
 
     playlistSongs.innerHTML = songsHTML;
+
+    if (userData?.songs.length === 0) {
+        
+    }
 };
 
 const setPlayButtonAccessibleText = () => {
